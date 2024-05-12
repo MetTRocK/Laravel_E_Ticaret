@@ -173,7 +173,7 @@
       <div class="container">
         <div class="row justify-content-center  mb-5">
           <div class="col-md-7 site-section-heading text-center pt-4">
-            <h2>Big Sale!</h2>
+            <h2>Kaçırılmayacak İndirim!</h2>
           </div>
         </div>
         <div class="row align-items-center">
@@ -181,10 +181,9 @@
             <a href="#"><img src="images/blog_1.jpg" alt="Image placeholder" class="img-fluid rounded"></a>
           </div>
           <div class="col-md-12 col-lg-5 text-center pl-md-5">
-            <h2><a href="#">50% less in all items</a></h2>
-            <p class="post-meta mb-4">By <a href="#">Carl Smith</a> <span class="block-8-sep">&bullet;</span> September 3, 2018</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam iste dolor accusantium facere corporis ipsum animi deleniti fugiat. Ex, veniam?</p>
-            <p><a href="#" class="btn btn-primary btn-sm">Shop Now</a></p>
+            <h2><a href="#">Tüm ürünlerde %50'ye varan indirim</a></h2>
+            <p>%50'ye varan indirimlerin yer aldığı Katalogumuz yayında. 22 Mayıs'a kadar devam edecek olan indirimler şimdi seni bekliyor. </p>
+            <p><a href="{{route('urunler')}}" class="btn btn-primary btn-sm">Ürünleri Gör</a></p>
           </div>
         </div>
       </div>

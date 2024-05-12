@@ -3,31 +3,18 @@
       <div class="row">
         <div class="col-lg-6 mb-5 mb-lg-0">
           <div class="row">
-            <div class="col-md-12">
-              <h3 class="footer-heading mb-4">Linkler</h3>
-            </div>
+
             <div class="col-md-6 col-lg-4">
               <ul class="list-unstyled">
-                <li><a href="#">Online Satış</a></li>
-                <li><a href="#">Ek Bilgiler</a></li>
-                <li><a href="#">Sepet</a></li>
-                <li><a href="#">Ürünler</a></li>
+                <li><a href="{{route('anasayfa')}}">Anasayfa</a></li>
+                <li><a href="#">Kategori</a></li>
+                <li><a href="{{route('hakkimizda')}}">Hakkımızda</a></li>
+                <li><a href="{{route('urunler')}}">Ürünler</a></li>
+                <li><a href="{{route('iletisim')}}">İletişim</a></li>
               </ul>
             </div>
-            <div class="col-md-6 col-lg-4">
-              <ul class="list-unstyled">
-                <li><a href="#">Satış Sonrası</a></li>
-                <li><a href="#">Teslimat</a></li>
-                <li><a href="#">Website development</a></li>
-              </ul>
-            </div>
-            <div class="col-md-6 col-lg-4">
-              <ul class="list-unstyled">
-                <li><a href="#">Satış Noktaları</a></li>
-                <li><a href="#">Donanım</a></li>
-                <li><a href="#">Yazılım</a></li>
-              </ul>
-            </div>
+
+
           </div>
         </div>
         <div class="col-md-6 col-lg-3 mb-4 mb-lg-0">
@@ -48,15 +35,7 @@
             </ul>
           </div>
 
-          <div class="block-7">
-            <form action="#" method="post">
-              <label for="email_subscribe" class="footer-heading">Güncellemeleri Kaçırma</label>
-              <div class="form-group">
-                <input type="text" class="form-control py-4" id="email_subscribe" placeholder="E-Posta">
-                <input type="submit" class="btn btn-sm btn-primary" value="İlet">
-              </div>
-            </form>
-          </div>
+
         </div>
       </div>
       <div class="row pt-5 mt-5 text-center">
