@@ -27,5 +27,9 @@ class DatabaseSeeder extends Seeder
         $this->call([
             GGSeeder::class,
         ]);
+
+        $this->call([
+            UlasSeed::class,
+        ]);
     }
 }

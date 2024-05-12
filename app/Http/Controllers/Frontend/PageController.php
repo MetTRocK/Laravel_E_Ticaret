@@ -35,6 +35,10 @@ class PageController extends Controller
         return view('Frontend.Pages.satinal');
     }
 
+    public function admin() {
+        return view('Backend.admin');
+    }
+
 
 
 

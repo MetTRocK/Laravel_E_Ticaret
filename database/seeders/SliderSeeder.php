@@ -14,18 +14,11 @@ class SliderSeeder extends Seeder
     public function run(): void
     {
         Slider::create([
-            'image' => 'https://fak2eimg.pl/250x100/',
-            'name' => 'Slider2',
-            'content' => 'E-Ticar1et Sitemize Hoş Geldiniz',
-            'link' => 'urunler1',
-            'status' => '0',
-        ]);
-        Slider::create([
-            'image' => 'https://fak2eimg.pl/250x100/',
-            'name' => 'Slider2',
-            'content' => 'E-Ticar1et Sitemize Hoş Geldiniz',
-            'link' => 'urunler1',
-            'status' => '0',
+            'image' => 'https://cdn.pixabay.com/photo/2024/03/05/10/38/boat-8614314_1280.jpg',
+            'name' => 'Yep Yeni Fırsatlar',
+            'content' => 'Yüzbinlerce Üründe %54\'e Varan İndirim',
+            'link' => 'urunler',
+            'status' => '1',
         ]);
     }
 }
