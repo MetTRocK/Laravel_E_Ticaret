@@ -14,11 +14,18 @@ class SliderSeeder extends Seeder
     public function run(): void
     {
         Slider::create([
-            'image' => 'https://fakeimg.pl/250x100/',
-            'name' => 'Slider1',
-            'content' => 'E-Ticaret Sitemize Hoş Geldiniz',
-            'link' => 'urunler',
-            'status' => '1',
+            'image' => 'https://fak2eimg.pl/250x100/',
+            'name' => 'Slider2',
+            'content' => 'E-Ticar1et Sitemize Hoş Geldiniz',
+            'link' => 'urunler1',
+            'status' => '0',
+        ]);
+        Slider::create([
+            'image' => 'https://fak2eimg.pl/250x100/',
+            'name' => 'Slider2',
+            'content' => 'E-Ticar1et Sitemize Hoş Geldiniz',
+            'link' => 'urunler1',
+            'status' => '0',
         ]);
     }
 }

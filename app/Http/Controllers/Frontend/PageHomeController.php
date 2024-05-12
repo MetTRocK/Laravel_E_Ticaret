@@ -11,7 +11,6 @@ class PageHomeController extends Controller
 {
     public function index(){
         $slider = Slider::where('status','1')->first();
-        $title = "Anasayfa";
-        return view('Frontend.Pages.index',compact('slider','title'));
+        return view('Frontend.Pages.index',compact('slider'));
     }
 }
