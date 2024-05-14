@@ -27,7 +27,7 @@ class DatabaseSeeder extends Seeder
             GGSeeder::class,
             UlasSeed::class,
             CategorySeeder::class,
-            About::class
+            AboutSeeder::class
          ]);
 
     }

@@ -5,6 +5,8 @@ use App\Http\Controllers\Frontend\PageController;
 use App\Http\Controllers\Frontend\PageHomeController;
 
 Route::get('/',[PageHomeController::class,'index'])->name('anasayfa');
+
+
 Route::get('/hakkimizda',[PageController::class,'hakkimizda'])->name('hakkimizda');
 Route::get('/iletisim',[PageController::class,'iletisim'])->name('iletisim');
 Route::get('/urunler',[PageController::class,'urunler'])->name('urunler');

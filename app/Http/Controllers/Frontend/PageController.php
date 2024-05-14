@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Frontend;
 
 use App\Http\Controllers\Controller;
+use App\Models\About;
 use Illuminate\Http\Request;
 
 class PageController extends Controller
@@ -16,7 +17,8 @@ class PageController extends Controller
     }
 
     public function hakkimizda() {
-        return view(('Frontend.Pages.about'));
+        $about= About::first();
+        return view('Frontend.Pages.about', compact('about'));
     }
 
     public function iletisim() {
