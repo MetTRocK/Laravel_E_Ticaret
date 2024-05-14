@@ -77,7 +77,7 @@
               <div class="block-38-header">
                 <img src="images/person_3.jpg" alt="Image placeholder" class="mb-4">
                 <h3 class="block-38-heading h4">Patrick Marx</h3>
-                <p class="block-38-subheading">Marketing</p>
+                <p class="block-38-subheading">Marketing1</p>
               </div>
               <div class="block-38-body">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae aut minima nihil sit distinctio recusandae doloribus ut fugit officia voluptate soluta. </p>
