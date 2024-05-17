@@ -29,9 +29,9 @@
           <div class="block-5 mb-5">
             <h3 class="footer-heading mb-4">İletişim Bilgileri</h3>
             <ul class="list-unstyled">
-              <li class="address">{{$ulas->adres ?? ('Değer Bulunamadı')}}</li>
-              <li class="phone">{{$ulas->telefon ?? ('Değer Bulunamadı')}}</li>
-              <li class="email">{{$ulas->posta ?? ('Değer Bulunamadı')}}</li>
+              <li class="address">{{$settings['adres'] ?? ('Değer Bulunamadı')}}</li>
+              <li class="phone">{{$settings['phone'] ?? ('Değer Bulunamadı')}}</li>
+              <li class="email">{{$settings['email'] ?? ('Değer Bulunamadı')}}</li>
             </ul>
           </div>
 

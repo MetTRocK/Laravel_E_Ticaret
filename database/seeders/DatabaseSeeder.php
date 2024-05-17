@@ -2,11 +2,12 @@
 
 namespace Database\Seeders;
 
-use App\Models\About;
 use App\Models\User;
+use App\Models\About;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use Database\Seeders\CategorySeeder;
+use Database\Seeders\SiteSettingSeeder;
 
 class DatabaseSeeder extends Seeder
 {
@@ -25,9 +26,9 @@ class DatabaseSeeder extends Seeder
         $this->call([
             SliderSeeder::class,
             GGSeeder::class,
-            UlasSeed::class,
             CategorySeeder::class,
-            AboutSeeder::class
+            AboutSeeder::class,
+            SiteSettingSeeder::class
          ]);
 
     }
