@@ -16,6 +16,19 @@ return new class extends Migration
             $table->string('image')->nullable();
             $table->string('name')->nullable();
             $table->text('content')->nullable();
+
+            $table->text('text_1_icon')->nullable();
+            $table->string('text_1')->nullable();
+            $table->text('text_1_content')->nullable();
+
+            $table->text('text_2_icon')->nullable();
+            $table->string('text_2')->nullable();
+            $table->text('text_2_content')->nullable();
+
+            $table->text('text_3_icon')->nullable();
+            $table->string('text_3')->nullable();
+            $table->text('text_3_content')->nullable();
+
             $table->timestamps();
         });
     }
