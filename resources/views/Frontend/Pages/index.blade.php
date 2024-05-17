@@ -24,29 +24,29 @@
         <div class="row">
           <div class="col-md-6 col-lg-4 d-lg-flex mb-4 mb-lg-0 pl-4" data-aos="fade-up" data-aos-delay="">
             <div class="icon mr-4 align-self-start">
-              <span class="icon-truck"></span>
+              <span class="{{$about->text_1_icon}}"></span>
             </div>
             <div class="text">
-              <h2 class="text-uppercase">Ücretsiz Kargo</h2>
-              <p>Ücretsiz kargo ile ürünlerin normal satış fiyatına ek olarak ekstra bir kargo ücreti ödemek zorunda kalmazsınız. Bu da özellikle toplu alımlarda veya bütçenizi korumak istediğiniz durumlarda önemli bir avantaj sağlar.</p>
+              <h2 class="text-uppercase">{{$about->text_1}}</h2>
+              <p>{{$about->text_1_content}}</p>
             </div>
           </div>
           <div class="col-md-6 col-lg-4 d-lg-flex mb-4 mb-lg-0 pl-4" data-aos="fade-up" data-aos-delay="100">
             <div class="icon mr-4 align-self-start">
-              <span class="icon-refresh2"></span>
+              <span class="{{$about->text_2_icon}}"></span>
             </div>
             <div class="text">
-              <h2 class="text-uppercase">Kolay İade</h2>
-              <p>Kolay iade politikası sayesinde, aldığınız ürünlerden memnun kalmamanız durumunda kolayca iade edebileceğinizi bilerek daha güvenli bir şekilde alışveriş yapabilirsiniz. Bu sayede denemekten çekindiğiniz ürünleri sipariş etmekte tereddüt etmezsiniz.</p>
+              <h2 class="text-uppercase">{{$about->text_2}}</h2>
+              <p>{{$about->text_2_content}}</p>
             </div>
           </div>
           <div class="col-md-6 col-lg-4 d-lg-flex mb-4 mb-lg-0 pl-4" data-aos="fade-up" data-aos-delay="200">
             <div class="icon mr-4 align-self-start">
-              <span class="icon-help"></span>
+              <span class="{{$about->text_3_icon}}"></span>
             </div>
             <div class="text">
-              <h2 class="text-uppercase">Müşteri Memnuniyeti</h2>
-              <p>Müşterilerinizin sorunlarını hızlı ve etkili bir şekilde çözmek, onların memnuniyetini sağlayacaktır. Memnun müşteriler, firmanızla tekrar alışveriş yapma ve sizi başkalarına tavsiye etme olasılıkları daha yüksektir.</p>
+              <h2 class="text-uppercase">{{$about->text_3}}</h2>
+              <p>{{$about->text_3_content}}</p>
             </div>
           </div>
         </div>
