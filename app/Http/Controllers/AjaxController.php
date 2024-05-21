@@ -11,6 +11,7 @@ class AjaxController extends Controller
         $data = $request->all();
         $data['ip'] = request()->ip();
 
+
         $sonkaydedilen = Contact::create($data);
         return back()->withSuccess('Mesajınız Kaydedildi');
     }

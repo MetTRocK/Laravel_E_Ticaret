@@ -15,7 +15,7 @@ class SiteSettingSeeder extends Seeder
     {
         SiteSetting::create([
             'name' => 'adres',
-            'data' => 'Samsun adres bilgilerim burada',
+            'data' => 'Bostancı Sanayi Sitesi, Huzurhoca sok. No.44 İçerenköy Bostancı',
         ]);
 
         SiteSetting::create([
